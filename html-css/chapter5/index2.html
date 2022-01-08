@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="chapter5">
+    <title>Title</title>
+    <style>
+        a {
+            color: #0073bc;
+            text-decoration: none;
+            -webkit-tap-highlight-color: rgba(243, 151, 45, 0.5);
+        }
+        a:hover {
+            color: #b7dbf2;
+            text-decoration: underline;
+        }
+        a:active {
+            #4ca4e8;
+        }
+        /*a[target="_blank"]::after {*/
+        /*    content: "※";*/
+        /*}*/
+        a[target="_blank"]::before {
+            content: "※";
+        }
+    </style>
+</head>
+<body>
+    <a href="https://www.google.com/?hl=ja" target="_blank">google</a>
+    <ul>
+        <li><a href="#headline0001">aaaa</a></li>
+        <li><a href="#headline0002">bbbb</a></li>
+        <li><a href="#headline0003">cccc</a></li>
+        <li><a href="#headline0004">dddd</a></li>
+    </ul>
+
+    <h2 id="headline0001"></h2>
+    <p>aaaaaaaaaaaaaaaaaaaaaa</p>
+    <h2 id="headline0002"></h2>
+    <p>bbbbbbbbbbbbb</p>
+    <h2 id="headline0003"></h2>
+    <p>accccccccccccc</p>
+    <h2 id="headline0004"></h2>
+    <p>dddddddddddd</p>
+
+    <a href="#">top</a>
+</body>
+</html>
