@@ -5,20 +5,19 @@
     <meta name="description" content="chapter5">
     <title>Title</title>
     <style>
-        a:hover img {
-            opacity: 0.5;
+        .frame {
+            padding: 8px;
+            border: 1px solid transparent;
         }
-        .img-responsive {
-            display: block;
-            max-width: 100%;
-            height: auto;
+        a:hover .frame {
+            border: 1px solid #ccc;
         }
     </style>
 </head>
 <body>
     <a href="https://github.com/">
         <div>
-            <img src="./fuji-2022.png" width="904" height="572" alt="富士2022" class="img-responsive">
+            <img src="./fuji-2022.png" width="904" height="572" alt="富士2022" class="frame">
         </div>
         <p>GitHubへのリンク</p>
     </a>
